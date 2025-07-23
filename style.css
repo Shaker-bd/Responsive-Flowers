@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+body {
+    max-width: 1440px;
+}
+
 /* Google fonts */
 
 .noto-serif-normal {
@@ -16,4 +20,51 @@
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-style: normal;
+  font-size: 22px;
+}
+
+/* Common Style */
+.dark-1 {
+    color: rgba(37, 36, 50, 1);
+}
+.dark-2 {
+    color: rgba(137, 135, 161, 1);
+}
+.common-width {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.nav-container {
+    width: 100%;
+    margin: 30px 0 120px 0;
+}
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item {
+    display: flex;
+    gap: 3rem;
+    color: rgb(137, 135, 161);
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 24px;
+}
+.nav-item1{
+    font-weight: 600;
+}
+.banner-container {
+   display: flex;
+}
+.banner-item {
+    flex: 1;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: bold;
+}
+.common-orange {
+    color: rgba(233, 90, 8, 1);
 }
