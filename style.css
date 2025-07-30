@@ -123,7 +123,6 @@ h1 {
     overflow: hidden;
 }
 .flower-lover-items {
-    width: 50%;
     height: 300px;
     flex: 1;
 }
@@ -210,7 +209,7 @@ h1 {
 
 .join-container {
     max-width: 1440px;
-    height: 550px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -221,6 +220,11 @@ h1 {
     background-size: cover;
     background-position: center;
     overflow: hidden;
+}
+.join-container-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .join-container-title {
     font-size: 3rem;
@@ -237,11 +241,11 @@ h1 {
 }
 .background-orange {
     background-color: rgba(233, 90, 8, 1);
-    height: 50px;
-    padding: 10px 20px;
+    height: 52px;
+    padding: 0 20px;
     border: none;
     color: white;
-    margin-left: 0;
+    margin-left: 0px;
 }
 
 /* Footer Section Style */
@@ -312,13 +316,15 @@ h1 {
     }
     .latest-deals-image-container {
     grid-template-columns: repeat(1, 1fr);
-    height: 200px;
+    height: auto;
     width: 100%;
     margin-top: 0px;
     }
     .flower-lover-container {
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
+  
     }
     .latest-deals-container {
     text-align: center;
@@ -347,6 +353,14 @@ h1 {
     width: 100%;
     overflow: hidden;
     }
+    .flower-lover-container {
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+    .flower-lover-title {
+        font-size: 2rem;
+    }
     .join-container {
     max-width: 100%;
     overflow: hidden;
@@ -360,7 +374,7 @@ h1 {
     }
     .input-text{
     max-width:300px;
-    height: 40px;
+    height: 50px;
     }
 
      .footer-container {
